@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para o gostosão</title>
+
+
+    <style>
+        body{
+            background-color: red;
+        }
+        .painel{
+             margin: auto;
+            background-color: white;
+            width: 500px;
+            height: 500px;
+            border-radius: 20px;
+            text-align: center;
+            padding-top: 50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+        #sim{
+            height: 40px;
+            width: 60px;
+            background-color: rgb(255, 0, 0);
+            border: 2px solid white;
+            border-radius: 10px;
+            color: white;
+            margin-left: -50px;
+
+        }
+        #nao{
+            position: absolute;
+            height: 40px;
+            width: 60px;
+            background-color: rgb(255, 0, 0);
+            border: 2px solid white;
+            border-radius: 10px;
+            color: white;
+            margin-left: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+
+
+   <div class="painel">
+        <h1>para o shereke da minha shereka</h1>
+        <img src="https://i.pinimg.com/originals/23/4b/79/234b79f7662cf05e82b1f28a15d3e663.gif" alt="">
+        <h2>Aceita casar comigo?</h2>
+
+        <a href="https://youtu.be/ZOfisAF09AA?t=77"><button id="sim"> sim! </button></a>
+        <button onmouseover="fuja()" id="nao"> Não! </button>
+       
+       
+      
+
+</div>
+
+<script>
+    function fuja(){
+        var botaoNao = document.getElementById('nao');
+        botaoNao.style.top = Math.random() * 400 + "px";
+        botaoNao.style.left = Math.random() * 400 + "px";
+
+
+    }
+
+    
+
+
+</script>
+
+</div>
+
+   </div> 
+    
+</body>
+</html>
